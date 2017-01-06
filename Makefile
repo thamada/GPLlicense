@@ -1,4 +1,4 @@
-#Time-stamp: <2017-01-06 21:54:51 hamada>
+#Time-stamp: <2017-01-06 22:31:37 hamada>
 
 all: check
 
@@ -15,4 +15,6 @@ c: check
 
 update:
 	md5sum LIC* |tee md5sum.txt
+
+u: update
 
